@@ -19,20 +19,20 @@ It is a simple Java application and it only requires JDK 11 on your machine.
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/malkfilipp/maze-runner.git
-cd maze-runner
+git clone https://github.com/Bartosz-Rogala/Maze-Solver.git
+cd maze-solver
 ```
 
 **2. Compile**
 
 ```bash
-javac -sourcepath ./src -d bin src/maze/Main.java
+javac -sourcepath ./src -d bin src/Main.java
 ```
 
 **2. Run**
 
 ```bash
-java -classpath ./bin maze.Main
+java -classpath ./bin Main
 ```
 
-**Note:** you may need to adjust the line space in order to have a continuous maze in the console.
+**Note:** you might have to adjust the line space in order to have a continuous maze in the console.
